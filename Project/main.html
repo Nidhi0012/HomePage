@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>Book-Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+ 
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top p-md-1">
+    <div class="container">
+      <a class="navbar-brand " href="main.html">
+        <img src="./bkk.jpg" width="90" height="30" alt=""></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class=" navbar-nav  ">
+        
+        <li class="nav-item active">
+            <a class="nav-link" href="/Book-Store/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Book-Store/">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Book-Store/">Register</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carousel-indicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src=".\img1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=".\img2.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=".\img3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--  -->
+  <div class="container">
+
+    <h3 style="text-align: center; margin-top: 30px;"> Popular Books
+    </h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src=".\ballad.jpg" class="card-img-top" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>The Ballad of Never After</b></h5>
+                  
+                    <p class="card-text"><b> Rs 270</b></p>
+                </div>
+                <button type="button" class="btn btn-warning"onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src=".\butcher.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>The Butcher and the Wren</b></h5>
+                    <p class="card-text"><b> Rs 200</b></p>
+                </div>
+                <button type="button" class="btn btn-warning"onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src=".\enclaves.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Golden Enclaves</b></h5>
+                    <p class="card-text">About Book</p>
+                    <p class="card-text"><b> Rs 200</b></p>
+                </div>
+                <button type="button" class="btn btn-warning"onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+            </div>
+        </div>
+    </div>
+    <h3 style="text-align: center; margin-top: 30px;"> Top-Rated Books
+    </h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col">
+            <div class="card h-100">
+                <img src=".\goodinside.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Good Inside</b></h5>
+                    <p class="card-text"><b> Rs 200 </b></p>
+                </div>
+                <button type="button" class="btn btn-warning"onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src=".\guiness.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Guiness World Records</b></h5>
+                    <p class="card-text"><b> Rs 200 </b></p>
+                </div>
+                <button type="button" class="btn btn-warning" onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src=".\lanka.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>War of LANKA</b></h5>
+                    <p class="card-text"><b> Rs 200</b></p>
+                </div>
+                <button type="button" class="btn btn-warning" onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<h3 style="text-align: center; margin-top: 40px;">Latest Books
+</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4 p-3">
+    <div class="col">
+        <div class="card h-100">
+            <img src=".\lighter.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><b>Lighter</b></h5>
+                <p class="card-text"><b> Rs 200 </b></p>
+            </div>
+            <button type="button" class="btn btn-warning" onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src=".\tian.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><b>Heaven Official's Blessing</b></h5>
+                <p class="card-text"><b> Rs 200 </b></p>
+            </div>
+            <button type="button" class="btn btn-warning" onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src=".\whatif.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><b>What If 2</b></h5>
+                <p class="card-text"><b> Rs 200</b></p>
+            </div>
+            <button type="button" class="btn btn-warning" onclick="window.location.href= './Romantic_The_Upas_Tree.pdf'">View PDF</button>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="content2">
+  <div style="flex-grow: 6;" id="cont45">
+      <h3>About US</h3>
+      <p>Dear readers,
+
+        We offer huge collection of books in diverse category of Fiction, Non-fiction, Biographies, History, Religions, Self -Help, Children. We also sell in vast collection of Investments and Management, Computers, Engineering, Medical, College and School text references books proposed by different institutes as syllabus across the country. Besides to this, we also offer a large collection of E-Books at very fair pricing.
+        
+        We attempt to extend the customer satisfaction by catering easy user-friendly search engine, quick and user-friendly payment options and quicker delivery systems. Upside to all of this, we are disposed to provide exciting offers and pleasant discounts on our books.
+        
+        As well, we humbly invite all the sellers around the country to partner with us. We will surely provide you the platform for many sparkling domains and grow our family. We would like to thank you for shopping with us. You can write us for any new thoughts at “email-id” helping us to improvise for the reader satisfaction.
+        
+        
+      </p>
+  </div>
+</div>
+</div>
+
+<footer>
+  <p>Copyright 2022 | All Right Reserved</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+  
+</body>
+</html>
+
+
